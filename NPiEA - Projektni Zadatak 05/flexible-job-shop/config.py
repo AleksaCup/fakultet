@@ -1,0 +1,13 @@
+population_size = 200
+number_of_generations = 300
+crossover_rate = 0.9
+mutation_rate = 0.05
+elitism_rate = 0.2
+mutation_rate_change = 0.9
+mutation_rate_change_interval = 100
+elitism_rate_change = 0.05
+elitism_rate_max = 0.3
+elitism_rate_increase_interval = 100
+termination_variancy = 20
+termination_variancy_len = 20
+min_gen_number=100
