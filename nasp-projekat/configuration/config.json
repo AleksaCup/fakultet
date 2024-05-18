@@ -1,0 +1,11 @@
+{
+    "wal_size": 5,
+    "cache_capacity": 5,
+    "sample_rate": 3,
+    "bloom_precision": 0.01,
+    "segment_number": 5,
+    "file_structure": "Single",
+    "memtable_size": 5,
+    "memtable_threshold": 0.7,
+    "wal_byte_length": 0
+}
