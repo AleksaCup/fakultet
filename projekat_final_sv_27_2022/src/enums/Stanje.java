@@ -1,0 +1,11 @@
+package enums;
+
+public enum Stanje {
+	
+	ZAKAZAN,
+	OTKAZAO_KLIJENT,
+	OTKAZAO_SALON,
+	KLIJENT_SE_NIJE_POJAVIO,
+	IZVRSEN
+
+}
