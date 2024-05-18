@@ -1,0 +1,26 @@
+aa88|INI|BEG|07:28|09:51|False|krstic-trans|[1, 2, 3, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|540.0|2022-6-15|2022-7-5
+bn15|ABC|MWD|03:55|13:12|False|air-ratkovo|[0, 2, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|130.0|2023-1-7|2023-2-7
+zk23|DEF|WWE|15:45|05:30|True|air-cukarica|[1, 3]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|200.0|2022-11-17|2023-1-19
+el42|GHI|QRF|07:00|17:25|False|air-zemun|[0, 2, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|250.0|2023-1-1|2023-1-20
+nd12|JKL|ZZT|08:15|18:35|False|air-novi-beograd|[1, 3, 6]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|300.0|2023-1-1|2023-1-12
+ff67|INI|UBA|09:45|20:00|False|air-ratkovo|[0, 2, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|350.0|2023-2-2|2023-2-25
+vt89|PQR|LEL|11:30|21:45|False|air-ratkovo|[1, 3]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|400.0|2023-1-1|2023-1-14
+os01|BEG|FIR|13:00|23:15|False|air-ratkovo|[0, 2, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|450.0|2023-5-11|2023-6-1
+px34|INI|BEG|14:30|00:45|True|air-phi|[1, 3, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|500.0|2023-4-10|2022-5-15
+ay56|YZA|LYR|16:00|02:15|True|air-zemun|[0, 2, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|550.0|2023-2-17|2023-4-8
+jj73|JFK|BEG|05:27|22:45|False|air-ratkovo|[1]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|780.0|2023-1-10|2023-5-10
+cj29|GHT|VDR|10:15|14:30|False|odzaci-fly|[2, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|250.0|2023-2-1|2022-2-12
+dk38|JKL|MNO|06:45|10:22|True|air-parage|[1, 2, 4, 6]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|300.0|2023-3-1|2023-5-23
+el47|PQR|STU|09:30|13:45|False|sky-miletic|[0, 3, 6]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|500.0|2023-4-1|2023-7-4
+fm56|WXY|ZAB|11:15|15:30|True|air-bosnia|[1, 2, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|200.0|2023-5-1|2022-5-19
+gn65|CDE|FGH|08:00|12:15|False|air-phi|[0, 4, 6]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|450.0|2023-6-1|2022-6-30
+ho74|IJK|LMN|07:00|11:15|True|sky-travel|[2, 3, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|300.0|2023-1-1|2023-3-3
+cb12|BEG|JKL|09:00|11:30|False|air-vozdovac|[2, 3, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|320.0|2022-11-5|2023-1-5
+db34|MNO|PQR|13:00|15:30|False|air-zemun|[1, 2, 3]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|420.0|2022-11-5|2022-12-4
+et56|STU|VWX|18:00|20:30|False|air-zemun|[1, 2, 3, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|240.0|2023-7-12|2022-9-16
+fg78|YZA|BCD|22:00|01:30|True|air-vozdovac|[1, 3, 5]|{'id': 2, 'naziv': 'boing737', 'broj_redova': 5, 'pozicije_sedista': ['A', 'B', 'C', 'D']}|320.0|2023-4-2|2023-5-7
+hj90|INI|BEG|05:00|08:00|False|air-cukarica|[1, 2, 3, 4, 5]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|250.0|2022-11-9|2022-12-10
+xx01|INI|BEG|11:11|22:22|False|JAT|[3, 4]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|320.0|2022-11-01|2022-12-11
+xb12|ALE|KSA|15:12|17:45|False|air-ratkovo|[1, 3]|{'id': 1, 'naziv': 'boing767', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|220.0|2023-10-01|2023-10-15
+xo04|KSA|NIK|18:00|23:00|False|Qatar|[1]|{'id': 0, 'naziv': 'boing747', 'broj_redova': 20, 'pozicije_sedista': ['A', 'B', 'C', 'D', 'E', 'F']}|100.0|2023-10-02|2023-10-30
+zp13|BEG|TUR|01:30|06:00|True|air-phi|[0, 1, 3]|{'id': 2, 'naziv': 'boing737', 'broj_redova': 5, 'pozicije_sedista': ['A', 'B', 'C', 'D']}|970.0|2023-02-14|2023-03-02
