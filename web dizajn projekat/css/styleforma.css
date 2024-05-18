@@ -1,0 +1,196 @@
+/* .forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #editForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+    margin: auto;
+  }
+
+  label{
+
+    justify-content: center;
+  }
+
+  label:nth-child(8){
+    margin: 0 10px 90px 10px;
+  }
+
+
+  
+  label,
+  input,
+  select, textarea {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 45%;
+    align-items: center;
+  }
+  
+  .submit {
+    width: 100%;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit:hover {
+    transform: scale(1.1);
+    background-color: #ff9100;
+  }
+  
+  option,
+  select {
+    width: 100%;
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+  }
+
+  input[type="text"],
+input[type="email"], textarea {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  color: #333;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+  
+
+select {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  select:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  } */
+
+  .forma {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #editForm {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea,
+  select {
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  textarea:focus,
+  select:focus {
+    outline: none;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit {
+    width: 100%;
+    background-color: #ffa500;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submit:hover{
+    transform: scale(1.1);
+    background-color: #ff9100;
+  }
+
+  .delete, .submit{
+    margin: 20px 0;
+  }
+
+  .delete{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .delete:hover{
+    transform: scale(1.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  body {
+    background-color: #f1f1f1;
+  }
+  
+
+  @media only screen and (max-width: 600px) {
+    #editForm{
+      width: 80%;
+    }
+    
+  }

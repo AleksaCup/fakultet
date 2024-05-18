@@ -1,0 +1,127 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/styleforma.css">
+    <link rel="stylesheet" href="css/stylehome.css">
+    <link rel="stylesheet" href="css/forme.css">
+
+    <title>Izmena destinacije</title>
+</head>
+<body>
+    
+    <header>
+        <a class="logolink" href="pocetna.html">Agency Finder</a>
+        <nav>
+          <ul class="menu">
+            <li><a href="pocetna.html">Pocetna</a></li>
+            
+        
+            <li>
+              <a href="#">Prijava</a>
+              <ul>
+                <li><a href="#" onclick="showPopup('login')">Prijava</a></li>
+              <li><a href="#" onclick="showPopup('register')">Registracija</a></li>
+              </ul>
+            </li>
+            <li class="active">
+              <a href="izmenaDestinacije.html">Izmena destinacije</a>
+            </li>
+            <li id="adminAgencija" style="display: none;">
+              <a href="adminAgencija.html">Agencija admin</a>
+            </li>
+            <li id="adminKorisnik" style="display: none;">
+              <a href="adminKorisnik.html">Korisnik admin</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </header>
+      
+      <div id="loginPopup" class="popup">
+        <button class="closeBtn" onclick="hidePopup('login')">Zatvori</button>
+        <h2>Prijava</h2>
+        <form>
+          <input type="text" placeholder="Korisnicko ime" id="loginKorisnickoIme" required>
+          <input type="password" placeholder="Sifra" id="loginSifra" required>
+          <button type="submit">Prijavi se</button>
+        </form>
+      </div>
+    
+      <div id="registerPopup" class="popup">
+        <button class="closeBtn" onclick="hidePopup('register')">Zatvori</button>
+        <h2>Registracija</h2>
+        <form>
+          <input type="text" name="Adresa" placeholder="Adresa" id="registerAdresa" pattern="[a-zA-Z0-9\s]*" required>
+          <input type="date" name="DatumRodjenja" placeholder="Datum rodjenja" id="registerDatumRodjenja" required>
+          <input type="email" name="Email" id="registerEmail" placeholder="Email" required>
+          <input type="text" name="Ime" id="registerIme" placeholder="Ime" pattern="[a-zA-Z\s]*" required>
+          <input type="text" name="KorisnickoIme" placeholder="Korisnicko ime" id="registerKorisnickoIme" required>
+          <input type="text" name="Sifra" placeholder="Sifra" id="registerSifra" required>
+          <input type="text" name="Prezime" id="registerPrezime" placeholder="Prezime" pattern="[a-zA-Z\s]*" required>
+          <input type="text" name="Telefon" id="registerTelefon" placeholder="Telefon" pattern="[0-9]{0,13}" required>
+          <button type="submit">Registruj se</button>
+        </form>
+      </div>
+    
+      <div id="overlay" class="overlay"></div>
+  
+
+
+    <h1>Izmenite podatke o destinaciji</h1>
+  
+    <div class="forma">
+        <label for="destinationSelect">Izaberite destinaciju:</label>
+        <form id="editForm">
+            
+            
+            <select id="destinationSelect" name="destinationSelect"></select>
+            
+            
+            <label for="cena">Cena:</label>
+
+            <input type="text" id="cena" name="cena" placeholder="samo pozitivni brojevi dozvoljeni" pattern="^[1-9]\d*$" required>
+
+            
+            <label for="maxosoba">Max osoba:</label>
+
+            <input type="text" id="maxosoba" name="maxosoba" placeholder="samo pozitivni brojevi dozvoljeni" pattern="^[1-9]\d*$" required>
+
+            
+            <label for="naziv">Naziv:</label>
+
+            <input type="text" id="naziv" name="naziv" placeholder="samo slova i brojevi dozvoljeni" pattern="^(?! )[a-zA-Z0-9 ]*(?<! )$" required>
+
+            
+            <label for="opis">Opis:</label>
+
+            <textarea name="opis" placeholder="moze bilo sta da se unese" id="opis" cols="30" rows="10" required></textarea>
+
+
+            <label for="prevoz">Prevoz:</label>
+
+            <input type="text" id="prevoz" name="prevoz" placeholder="samo slova dozvoljena" pattern="^[a-zA-Z]+$" required>
+
+            
+            <label for="tip">Tip:</label>
+
+            <input type="text" id="tip" name="tip" placeholder="samo slova dozvoljena" pattern="^(?! )[a-zA-Z0-9 ]*(?<! )$" required>
+
+            <input type="button" value="Izbrisi destinaciju" class="delete" id="deleteBtn">
+
+            <input type="submit" value="Izmeni" class="submit">
+        </form>
+    </div>
+
+    <footer class="footer">
+      <p>&copy; 2023 Agency Finder</p>
+    </footer>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+  <script src="js/izmenaDestinacija.js"></script>
+  <script src="js/login.js"></script>
+</body>
+</html>

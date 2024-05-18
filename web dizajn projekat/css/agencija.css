@@ -1,0 +1,14 @@
+.agencijaSekcija{
+    background-image: url('../img/map.webp'); 
+    background-size: cover;
+    min-height: 1100px;
+
+}
+
+#naslovAgencija{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 50px;
+    color: #ffa500;
+    text-decoration: underline;
+}

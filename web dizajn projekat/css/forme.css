@@ -1,0 +1,75 @@
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    width: 40%;
+    background-color: #FFA500;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    text-align: center;
+    z-index: 2;
+  }
+  
+.popup input[type="text"],
+.popup input[type="password"], .popup input {
+width: 80%;
+padding: 10px;
+margin-bottom: 30px;
+border: 1px solid #ccc;
+}
+
+#loginKorisnickoIme, #loginSifra, .registerinput{
+  width: 80% !important;
+  padding: 10px !important;
+  margin-bottom: 15px !important;
+  border: 1px solid #ccc !important;
+  border-radius: 20px !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+  background-color: #fff !important;
+
+}
+
+
+
+.popup button {
+background-color: #FFA500;
+color: #fff;
+border: 1px solid #010101;
+border-radius: 10px;
+margin: 20px 0;
+padding: 10px 20px;
+width: 150px;
+cursor: pointer;
+}
+
+.popup button:hover {
+background-color: #FF8000;
+}
+
+.popup h2 {
+color: #fff;
+margin-top: 40px;
+margin-bottom: 30px;
+}
+
+
+.overlay {
+display: none;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.5);
+z-index: 1;
+}
+
+@media screen and (max-width: 660px) {
+    .popup {
+      width: 300px;
+    }
+  }

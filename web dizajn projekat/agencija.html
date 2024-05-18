@@ -1,0 +1,88 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencija</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/forme.css">
+    <link rel="stylesheet" href="css/agencija.css">
+</head>
+<body>
+    
+    <header>
+        <a class="logolink" href="pocetna.html">Agency Finder</a>
+        <nav>
+          <ul class="menu">
+            <li><a href="pocetna.html">Pocetna</a></li>
+            
+            
+            <li>
+              <a href="#">Prijava</a>
+              <ul>
+                <li><a href="#" onclick="showPopup('login')">Prijava</a></li>
+              <li><a href="#" onclick="showPopup('register')">Registracija</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="izmenaDestinacije.html">Izmena destinacije</a>
+            </li>
+            <li id="adminAgencija" style="display: none;">
+              <a href="adminAgencija.html">Agencija admin</a>
+            </li>
+            <li id="adminKorisnik" style="display: none;">
+              <a href="adminKorisnik.html">Korisnik admin</a>
+            </li>
+            
+          </ul>
+        </nav>
+      </header>
+  
+      <div id="loginPopup" class="popup">
+        <button class="closeBtn" onclick="hidePopup('login')">Zatvori</button>
+        <h2>Prijava</h2>
+        <form>
+          <input type="text" placeholder="Korisnicko ime" id="loginKorisnickoIme">
+          <input type="password" placeholder="Sifra" id="loginSifra">
+          <button type="submit">Prijavi se</button>
+        </form>
+      </div>
+    
+      <div id="registerPopup" class="popup">
+        <button class="closeBtn" onclick="hidePopup('register')">Zatvori</button>
+        <h2>Registracija</h2>
+        <form>
+          <input type="text" name="Adresa" placeholder="Adresa" id="registerAdresa" pattern="[a-zA-Z0-9\s]*" required>
+          <input type="date" name="DatumRodjenja" placeholder="Datum rodjenja" id="registerDatumRodjenja" required>
+          <input type="email" name="Email" id="registerEmail" placeholder="Email" required>
+          <input type="text" name="Ime" id="registerIme" placeholder="Ime" pattern="[a-zA-Z\s]*" required>
+          <input type="text" name="KorisnickoIme" placeholder="Korisnicko ime" id="registerKorisnickoIme" required>
+          <input type="text" name="Sifra" placeholder="Sifra" id="registerSifra" required>
+          <input type="text" name="Prezime" id="registerPrezime" placeholder="Prezime" pattern="[a-zA-Z\s]*" required>
+          <input type="text" name="Telefon" id="registerTelefon" placeholder="Telefon" pattern="[0-9]{0,13}" required>
+          <button type="submit">Registruj se</button>
+        </form>
+      </div>
+    
+      <div id="overlay" class="overlay"></div>
+
+
+    <section class="agencijaSekcija">
+        <h1 id="naslovAgencija"></h1>
+        <div id="destinacijebaza" class="flex-container"></div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2023 Agency Finder</p>
+      </footer>
+
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+
+    <script src="js/firebase_agencija.js"></script>
+    <script src="js/login.js"></script>
+    
+</body>
+</html>

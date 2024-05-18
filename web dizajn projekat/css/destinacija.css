@@ -1,0 +1,56 @@
+#pozadina{
+    background-size: cover;
+    min-height: 900px;
+
+}
+
+#opisdestinacije{
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.deskripcija h1{
+    color: #ffa500;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+.galerija img{
+    width: 300px;
+}
+
+.deskripcija p{
+    color: #fff;
+    padding: 20px 20px 70px 20px;
+}
+
+.galerija{
+    text-align: center;
+}
+
+.slikedestinacije{
+    width: 300px;
+    height: 200px;
+    background-size: contain;
+    border-left: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.naslov{
+    padding-top: 50px;
+    text-align: center;
+    color: #ffa500;
+    font-size: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+@media screen and (max-width:610px) {
+
+    .galerija img{
+        width: 40%;
+    }
+
+}

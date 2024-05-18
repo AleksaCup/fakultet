@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Agency Finder</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/stylehome.css">
+    <link rel="stylesheet" href="css/forme.css">
+  </head>
+  <body>
+
+    <header>
+      <a class="logolink" href="pocetna.html">Agency Finder</a>
+      <nav>
+        <ul class="menu">
+          <li class="active"><a href="pocetna.html">Pocetna</a></li>
+          
+          
+          <li>
+            <a href="#">Prijava</a>
+            <ul>
+              <li><a href="#" onclick="showPopup('login')">Prijava</a></li>
+            <li><a href="#" onclick="showPopup('register')">Registracija</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="izmenaDestinacije.html">Izmena destinacije</a>
+          </li>
+          <li id="adminAgencija" style="display: none;">
+            <a href="adminAgencija.html">Agencija admin</a>
+          </li>
+          <li id="adminKorisnik" style="display: none;">
+            <a href="adminKorisnik.html">Korisnik admin</a>
+          </li>
+          
+        </ul>
+      </nav>
+    </header>
+
+    <div id="loginPopup" class="popup">
+      <button class="closeBtn" onclick="hidePopup('login')">Zatvori</button>
+      <h2>Prijava</h2>
+      <form>
+        <input type="text" placeholder="Korisnicko ime" id="loginKorisnickoIme">
+        <input type="password" placeholder="Sifra" id="loginSifra">
+        <button type="submit">Prijavi se</button>
+      </form>
+    </div>
+  
+    <div id="registerPopup" class="popup">
+      <button class="closeBtn" onclick="hidePopup('register')">Zatvori</button>
+      <h2>Registracija</h2>
+      <form>
+        <input type="text" name="Adresa" placeholder="Adresa" id="registerAdresa" pattern="[a-zA-Z0-9\s]*" required>
+        <input type="date" name="DatumRodjenja" placeholder="Datum rodjenja" id="registerDatumRodjenja" required>
+        <input type="email" name="Email" id="registerEmail" placeholder="Email" required>
+        <input type="text" name="Ime" id="registerIme" placeholder="Ime" pattern="[a-zA-Z\s]*" required>
+        <input type="text" name="KorisnickoIme" placeholder="Korisnicko ime" id="registerKorisnickoIme" required>
+        <input type="text" name="Sifra" placeholder="Sifra" id="registerSifra" required>
+        <input type="text" name="Prezime" id="registerPrezime" placeholder="Prezime" pattern="[a-zA-Z\s]*" required>
+        <input type="text" name="Telefon" id="registerTelefon" placeholder="Telefon" pattern="[0-9]{0,13}" required>
+        <button type="submit">Registruj se</button>
+      </form>
+    </div>
+  
+    <div id="overlay" class="overlay"></div>
+
+
+    <section id="about">		
+	
+          <div class="container">
+            <div class="box box1">
+              <h3 class="a1">Dobrodošli u Agency Finder!</h5>
+              <h5 class="a2">"vaša početna stanica na putu oko sveta."</h3>
+              <p class="a3">Ovde možete pronaći širok asortiman agencija<br>koje nude putovanja širom Evrope i sveta.</p>
+              <div class="dugme">
+                <a href="#agencije" role="button" id="linkdugme"><button class="button1">Izaberite agenciju</button></a>
+              </div>
+              
+            </div>
+            <div class="box">
+              <img class="slika" src="img/banner_web.jpg" alt="nema slika" />
+            </div>
+          </div>
+			
+		</section>
+
+    <section class="background-image1" id="agencije">
+      <div id="flex-container" class="flex-container"></div>
+    </section>
+
+
+    <footer class="footer">
+      <p>&copy; 2023 Agency Finder</p>
+    </footer>
+
+
+    
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-database.js"></script>
+    <script src="js/firebase.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
