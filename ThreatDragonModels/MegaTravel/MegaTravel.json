@@ -1,0 +1,26 @@
+{
+  "version": "2.6.1-RC1",
+  "summary": {
+    "title": "MegaTravel",
+    "owner": "Aleksa",
+    "description": "",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [
+      {
+        "name": "Aleksa Cup"
+      },
+      {
+        "name": "Vanja Kostic"
+      },
+      {
+        "name": "Teodora Belic"
+      }
+    ],
+    "diagrams": [],
+    "diagramTop": 2,
+    "reviewer": "Aleksa",
+    "threatTop": 0
+  }
+}
